@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Courier New, monospace;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: Cream;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0a0909;
     padding: 10px;
     text-align: center;
 	min-height: 10vh;
 }
 
 nav {
-    background-color: #444;
+    background-color: #b60000;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -38,11 +38,12 @@ nav a:hover {
 section {
     padding: 20px;
 	min-height: 80vh;
+    text-align: center;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0a0909;
     padding: 10px;
     text-align: center;
 	min-height: 10vh;
@@ -54,9 +55,33 @@ footer a {
 	transition: color 0.3s ease;
 	padding: 10px;
 	border-radius: 5px;
+    text-align: center;
 }
 
 footer a:hover {
 	color: #61bb8e;
 	background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+ul.a
+{
+    list-style-type: none;
+}
+
+ul.b
+{
+    list-style-position: inside;
+}
+
+p
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li.name
+{
+    font-weight: bold;
+    font-size: 20px;
 }
